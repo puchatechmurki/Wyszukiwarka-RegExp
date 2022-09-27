@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .wrapper {
+    width: 800px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 10px #000;
+            box-shadow: 0 0 10px #000;
+  }
+  .wrapper .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    height: 360px;
+    padding: 20px 40px;
+    font-family: "Dancing Script", cursive;
+    background-image: url(/img/drink-g49d42ca76_640.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+  .wrapper .header .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    z-index: -1;
+  }
+  .wrapper .header h1 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 50px;
+  }
+  .wrapper .header .search {
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: transparent;
+  }
+  .wrapper .drink-list {
+    padding: 20px 40px;
+  }
+  .wrapper .drink-list h2 {
+    padding: 30px 0;
+  }
+  .wrapper .drink-list ul {
+    padding-bottom: 30px;
+    font-size: 23px;
+    list-style: none;
+  }
+  .wrapper .drink-list ul li {
+    padding: 8px 30px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+  }
+  .wrapper .drink-list ul li:last-child {
+    border-bottom: 0;
+  }/*# sourceMappingURL=main.css.map */
